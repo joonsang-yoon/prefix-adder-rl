@@ -1,0 +1,16 @@
+{
+  "DESIGN_NAME": "PrefixAdderMacro",
+  "VERILOG_FILES": ["dir::rtl/*.sv"],
+  "SYNTH_STRATEGY": "AREA 3",
+  "CLOCK_PERIOD": 5.0,
+  "CLOCK_PORT": "clock",
+  "CLOCK_NET": "ref::$CLOCK_PORT",
+  "meta": {
+    "version": 2,
+    "flow": [
+      "Yosys.Synthesis",
+      "OpenROAD.CheckSDCFiles",
+      "OpenROAD.STAPrePNR"
+    ]
+  }
+}

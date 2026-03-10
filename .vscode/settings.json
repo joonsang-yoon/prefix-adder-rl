@@ -1,0 +1,9 @@
+{
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": true
+    },
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}
